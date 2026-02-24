@@ -387,6 +387,43 @@ body {
     margin-top: 3rem;
 }
 
+.partner-brands-block {
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.partner-brands-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    color: rgba(255, 255, 255, 0.96);
+    margin-bottom: 1.25rem;
+}
+
+.partner-logos-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.partner-logo-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 120px;
+    width: min(420px, 100%);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.12);
+    padding: 1rem 1.5rem;
+}
+
+.partner-logo-image {
+    max-height: 72px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
 .comparison-card {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -958,6 +995,15 @@ body {
         right: 1rem;
         left: 1rem;
         text-align: center;
+    }
+
+    .partner-logo-card {
+        min-height: 100px;
+        padding: 0.9rem 1rem;
+    }
+
+    .partner-logo-image {
+        max-height: 58px;
     }
 }
 
